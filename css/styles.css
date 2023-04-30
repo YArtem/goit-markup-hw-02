@@ -1,3 +1,7 @@
+:root {
+  --background-color: #ffffff;
+}
+
 .list {
   list-style: none;
 }
@@ -6,4 +10,12 @@
 }
 button {
   cursor: pointer;
+}
+/* .accent {
+  color: blue;
+} */
+body {
+  font-family: "roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
 }
