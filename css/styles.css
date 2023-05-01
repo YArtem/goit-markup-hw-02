@@ -50,7 +50,8 @@ body {
 .menu .link:focus {
   color: #404bbf;
 }
-.contacts-item-link {
+.contacts-item-link,
+.contacts {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
