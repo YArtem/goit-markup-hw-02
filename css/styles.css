@@ -28,7 +28,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.menu-list {
+.menu-list,
+.menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -45,4 +46,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts:hover .contacts-nav-item,
+.contacts:focus .contacts-nav-item {
+  color: #404bbf;
 }
