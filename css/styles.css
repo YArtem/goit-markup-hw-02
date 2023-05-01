@@ -3,6 +3,8 @@
   --menu-color: #2e2f42;
   --adres-color: #434455;
   --hero-background-color: #2e2f42;
+  --title-color: #2e2f42;
+  --text-color: #434455;
 }
 
 .list {
@@ -73,4 +75,49 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.hero-btn {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #404bbf;
+}
+.principies-item-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2x;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.principies-item-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.wedoing-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
 }
