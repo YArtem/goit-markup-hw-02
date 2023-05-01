@@ -7,6 +7,8 @@
   --text-color: #434455;
   --btn-portfolio-color: #4d5ae5;
   --btn-portfolio-background-color: #f4f4fd;
+  --portfolio-items-title-color: #2e2f42;
+  --portfolio-items-text-color: #434455;
 }
 
 .list {
@@ -203,7 +205,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--portfolio-items-title-color);
 }
 .project-item-list-text {
   font-family: "Roboto", sans-serif;
@@ -212,5 +214,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--portfolio-items-text-color);
 }
