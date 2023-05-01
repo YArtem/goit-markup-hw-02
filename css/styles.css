@@ -5,6 +5,8 @@
   --hero-background-color: #2e2f42;
   --title-color: #2e2f42;
   --text-color: #434455;
+  --btn-portfolio-color: #4d5ae5;
+  --btn-portfolio-background-color: #f4f4fd;
 }
 
 .list {
@@ -165,7 +167,7 @@ body {
   background-color: #2e2f42;
 }
 .applicationarea-btn {
-  background: #f4f4fd;
+  background: var(--btn-portfolio-background-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -175,7 +177,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--btn-portfolio-color);
 }
 .applicationarea-btn:hover,
 .applicationarea-btn:focus {
